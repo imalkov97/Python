@@ -1,0 +1,23 @@
+width=input("Enter the width of your tree (Odd numbers only!)")
+length=input("Enter the length of the tree trunk")
+
+w=int(width)
+l=int(length)
+
+t="*" #The character used to display the tree
+r=(1) #The start of the tree
+n=(1) #The number of rows of the tree trunk
+e=(3) #The number of "*" character columns
+
+
+while (r*t)<=(w*t):
+    print ((r*t).center(w))
+    r = r + 2
+    
+
+while n<=l:      
+    print ((e*t).center(w))
+    n = n + 1
+
+
+
