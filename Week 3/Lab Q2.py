@@ -5,9 +5,9 @@ w=int(width)
 l=int(length)
 
 t=("*") #The character used to display the tree
-r=(1) #The start of the tree
+r=(1) #The start of the tree (top)
 n=(1) #The number of rows of the tree trunk
-e=(3) #The number of "*" character columns
+e=(3) #The number of "*" character columns in the tree trunk
 
 
 while (r*t)<(w*t):
